@@ -40,4 +40,4 @@ if not df.empty:
     df["Nome"] = df.apply(criar_link_upload, axis=1)
     st.dataframe(df, use_container_width=True)
 else:
-    st.info("Nenhum atendimento registrado ainda.")
+    st.info("Nenhum atendimento registrado")
